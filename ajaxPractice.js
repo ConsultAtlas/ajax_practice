@@ -5,9 +5,9 @@ $(document).ready(function () {
 
     $.get('https://dog.ceo/api/breeds/image/random', function(data){
       console.log(data.message);
-      var randomDog = data.message;
-      $('body').append('<img id="rdi" />');
-      $('#rdi').attr('src', randomDog);
+      var randomDog = data.message; //select the key pair in the JSON Object
+      $('body').append('<img id="rdi" />'); // add an image with the id 'rdi' tot he div
+      $('#rdi').attr('src', randomDog); // selected the image and changed the source to the randomDog url
     });
       /*$(".button").append("<img id='theDogImg'></img>");
       $('#theDogImg').attr('src', 'dogPicture');*/
