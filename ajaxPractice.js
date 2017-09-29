@@ -13,5 +13,7 @@ $(document).ready(function () {
       /*$(".button").append("<img id='theDogImg'></img>");
       $('#theDogImg').attr('src', 'dogPicture');*/
     });
-
+  $('body').append('<br><br>');
+  $('body').append('<select></select>');
+  $('body').append('<br><br>');
 });
