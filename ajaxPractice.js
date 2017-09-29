@@ -8,6 +8,7 @@ $(document).ready(function () {
       var randomDog = data.message; //select the key pair in the JSON Object
       $('body').append('<img id="rdi" />'); // add an image with the id 'rdi' tot he div
       $('#rdi').attr('src', randomDog); // selected the image and changed the source to the randomDog url
+      $(".Doggo").text("Generate Doggo");
     });
       /*$(".button").append("<img id='theDogImg'></img>");
       $('#theDogImg').attr('src', 'dogPicture');*/
