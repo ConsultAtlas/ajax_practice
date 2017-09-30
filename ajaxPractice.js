@@ -1,3 +1,4 @@
+/*
 $(document).ready(function () {
   $(".Doggo").click(function(){
     console.log("Generating Doggo...");
@@ -10,10 +11,16 @@ $(document).ready(function () {
       $('#rdi').attr('src', randomDog); // selected the image and changed the source to the randomDog url
       $(".Doggo").text("Generate Doggo");
     });
-      /*$(".button").append("<img id='theDogImg'></img>");
-      $('#theDogImg').attr('src', 'dogPicture');*/
     });
   $('body').append('<br><br>');
   $('body').append('<select></select>');
   $('body').append('<br><br>');
 });
+*/
+
+
+$(document).ready(function () {
+  $(".Doggo").click(function(){
+    $.get.('https://dog.ceo/api/breeds/list');
+  }
+}
