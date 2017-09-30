@@ -21,6 +21,9 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $(".Doggo").click(function(){
-    $.get.('https://dog.ceo/api/breeds/list');
-  }
-}
+    console.log("Generating Doggo...");
+    $.get('https://dog.ceo/api/breeds/list', function(data){
+
+    });
+  });
+});
