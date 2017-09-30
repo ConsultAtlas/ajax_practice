@@ -20,7 +20,7 @@ $(document).ready(function(){
             var option = $('<option></option>');
             option.val(breed);
             option.text(breed);
-            $("select").append('<option></option>')
+            //$("select").append('<option></option>') Not sure yet why wer are deleting
             $("select").append(option);
         });
 
